@@ -36,7 +36,7 @@ get_filename() {
   local platform="$2"
   local binary_name="$3"
   
-  echo "${binary_name}_${version/v/}_${platform}.tar.gz"
+  echo "${binary_name}_v${version}_${platform}.tar.gz"
 }
 
 # https://github.com/robscott/kube-capacity/releases/download/v0.8.0/kube-capacity_v0.8.0_darwin_x86_64.tar.gz
