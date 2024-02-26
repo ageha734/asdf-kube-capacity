@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-asdf plugin-add kube-capacity https://github.com/looztra/asdf-kube-capacity
+asdf plugin-add kube-capacity https://github.com/ageha734/asdf-kube-capacity
 ```
 
 ## Use
