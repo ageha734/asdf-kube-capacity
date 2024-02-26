@@ -10,6 +10,11 @@
 asdf plugin-add kube-capacity https://github.com/ageha734/asdf-kube-capacity
 ```
 
+```bash
+mise plugin remove kube-capacity
+mise plugin add kube-capacity https://github.com/ageha734/asdf-kube-capacity
+```
+
 ## Use
 
 Check out the [asdf](https://github.com/asdf-vm/asdf) readme for instructions on how to install and manage versions of kube-capacity.
