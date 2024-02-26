@@ -27,8 +27,8 @@ get_arch() {
 }
 
 get_platform() {
-  local platform; platform=$(uname | tr '[:upper:]' '[:lower:]')
-  echo "$(platform)_$(get_arch)"
+  local platform; platform=$(uname -s | tr '[:upper:]' '[:lower:]')
+  echo "${platform}_$(get_arch)"
 }
 
 get_filename() {
